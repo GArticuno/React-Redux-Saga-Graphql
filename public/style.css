@@ -1,0 +1,55 @@
+@font-face{
+  font-family: "Oxanium";
+  src:url('./fonts/Oxanium-Regular.ttf');
+}
+
+:root{
+  --bg: #4E4769;
+  --text: white;
+  --copyright: rgb(206, 206, 206);
+  --header-bg: #51cf51;
+
+  --card-bg: #1b1b1b;
+  --alive: #71F235;
+  --death: #e91b14;
+  --unknown: #272727;
+
+  --button: #44b410;
+  --button-hover: #39970e;
+  
+}
+
+html, body {
+  background-color: var(--bg);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  background-color: #5a5669;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #1f1c29;
+  border-radius: 10px;
+}
+
+@media (max-width:1400px){
+  html, body{
+    font-size: 97%;
+  }
+}
+
+@media (max-width:990px){
+  html, body{
+    font-size: 95%;
+  }
+}
+
+@media (max-width:800px){
+  html, body{
+    font-size: 93%;
+  }
+}
