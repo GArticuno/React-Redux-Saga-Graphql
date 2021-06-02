@@ -19,9 +19,11 @@ const Card = styled.li`
 
   h2 {
     color: var(--text);
+    text-align: center;
   }
 
   img {
+    margin: 1rem;
     align-self: center;
     justify-self: center;
     height:14.5rem;
@@ -74,7 +76,7 @@ const Card = styled.li`
 
     h3 {
       margin-left:0.3rem;
-      color: #494949;
+      color: #c0c0c0;
     }
   }
 
@@ -82,8 +84,8 @@ const Card = styled.li`
     grid-template-columns: 1fr;
 
     img {
-      height: 12rem;
-      width: 12rem;
+      height: 9rem;
+      width: 9rem;
     }
     .info {
       margin-left: 0.5rem;
@@ -98,7 +100,7 @@ const Card = styled.li`
 export default function CharacterCard({character}: Props) {
   return (
     <Card>
-      <img src={character.image} alt={character.name} />
+      <img src={character.image} alt={character.name}/>
       <div className='info'>
         <h2>{character.name}</h2>
         <div className='status'>

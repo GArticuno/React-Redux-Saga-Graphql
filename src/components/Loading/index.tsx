@@ -30,7 +30,7 @@ const Load = styled.div`
 
   @media (max-width:500px){
     .frase {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
     img {
@@ -44,7 +44,7 @@ const Load = styled.div`
 export function Loading() {
   return (
     <Load>
-      <img src="https://media.giphy.com/media/n5GXsYKoe1F3eFcRgq/giphy.gif" alt="Portal_gif" />
+      <img src="giphy.gif" alt="Portal_gif" />
       <p className='copyright'>Gif created by <a href="https://giphy.com/alexbradt/" target='_blank' rel='noreferrer'>Alex Bradt</a></p> 
       <p className='frase'>Consertando o carburador quântico.</p>
     </Load>
