@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Warp = styled.div`
-  min-height: 640px;
+  min-height: 190vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
 `

@@ -8,14 +8,15 @@ import store from './store';
 
 function App(){
   return(
-    <Warpper>
-      <Header/>
-      <Provider store={store}>
-        <CharacterList/>  
-      </Provider>
-      <Footer/>
-    </Warpper>
-
+    <>
+      <Warpper>
+        <Header/>
+        <Provider store={store}>
+          <CharacterList/>  
+        </Provider>
+        <Footer/>        
+      </Warpper>
+    </>
   );
 };
 

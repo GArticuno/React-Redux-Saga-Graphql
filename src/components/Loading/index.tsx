@@ -33,7 +33,7 @@ const Load = styled.div`
       font-size: 1.5rem;
     }
 
-    img {
+    source {
       height: 80%;
       width: 80%;
     }
@@ -44,7 +44,9 @@ const Load = styled.div`
 export function Loading() {
   return (
     <Load>
-      <img src="giphy.gif" alt="Portal_gif" />
+      <video className="project-webm" autoPlay loop muted>
+        <source src="giphy.webm" type="video/webm"/>
+      </video>
       <p className='copyright'>Gif created by <a href="https://giphy.com/alexbradt/" target='_blank' rel='noreferrer'>Alex Bradt</a></p> 
       <p className='frase'>Consertando o carburador quântico.</p>
     </Load>
